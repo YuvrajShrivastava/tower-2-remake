@@ -36,6 +36,16 @@ function setup() {
 	block6 = new Box(450,275,30,40);
 	block7 = new Box(480,275,30,40);
 	ground2 = new Ground(390,315,220,10);
+	    block17 = new Box(530,195,30,40);
+	block18= new Box(560,195,30,40);
+	block19 = new Box(590,195,30,40);
+	block20 = new Box(620,195,30,40);
+	block21 = new Box(650,195,30,40);
+	block22 = new Box(560,155,30,40);
+	block23 = new Box(590,155,30,40);
+	block24 = new Box(620,155,30,40);
+	block25 = new Box(590,115,30,40);
+    ground3 = new Ground(590,235,220,10);
 polygon = Bodies.circle(50,200,20);
 World.add(world,polygon);
 
@@ -68,10 +78,21 @@ function draw() {
   block13.display();
   block14.display();
   block15.display();
+	  block16.display();
+  block17.display();
+  block18.display();
+  block19.display();
+  block20.display();
+  block21.display();
+  block22.display();
+  block23.display();
+  block24.display();
+  block25.display();
  slingShot.display();
  poly2.display();
-  block16.display();
+ // block16.display();
   ground2.display();
+	ground3.display();
   drawSprites();
  
 }
